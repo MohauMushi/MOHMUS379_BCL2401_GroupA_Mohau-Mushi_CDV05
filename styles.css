@@ -91,5 +91,9 @@ li a:hover {
     z-index: 99;
   }
 
+  .show-links {
+    top: 70px;
+	scroll-behavior: smooth;
+  }
   
 }
