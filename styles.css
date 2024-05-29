@@ -54,3 +54,7 @@ li {
 .logo {
 	width: 5rem;
 }
+  
+.hamburger {
+	display: none;
+}
