@@ -50,3 +50,7 @@ li {
 	border-bottom: 4px #f1c40f solid;
 	transition: 0.5s;
   }
+
+.logo {
+	width: 5rem;
+}
