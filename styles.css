@@ -96,4 +96,24 @@ li a:hover {
 	scroll-behavior: smooth;
   }
   
+  li a {
+    color: rgba(12, 11, 11, 0.836);
+  }
+
+  li {
+    text-align: center;
+    width: 90vw;
+  }
+
+  li a:hover {
+    font-weight: bold;
+    color: #191e24;
+    border: none;
+    letter-spacing: 3px;
+  }
+
+  nav {
+    position: fixed;
+    padding: 15px 20px;
+  }
 }
