@@ -174,12 +174,6 @@ li a:hover {
 	padding: 2rem;
 }
 
-#about h2 {
-  color: #283618;
-  font-weight:900;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
 
 .about-container {
 	display: flex;
@@ -205,6 +199,13 @@ li a:hover {
 .about-bio {
 	flex-basis: 60%;
 	margin: 2rem;
+}
+
+.about-bio h2 {
+  color: #283618;
+  font-weight:900;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .about-bio p {
