@@ -6,3 +6,5 @@ const links = document.querySelectorAll(".links");
 hamburger.addEventListener("click", () => {
 	navLinks.classList.toggle("show-links");
   });
+
+  
