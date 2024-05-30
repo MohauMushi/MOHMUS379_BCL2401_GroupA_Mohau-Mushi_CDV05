@@ -202,6 +202,37 @@ li a:hover {
 	border-radius: 10px;
 }
 
+.about-bio {
+	flex-basis: 60%;
+	margin: 2rem;
+}
+
+.about-bio p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+}
+
+.cv-container {
+	text-align: center;
+}
+
+.cv-container a {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 0.8rem 2rem;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+.cv-container a:hover {
+  background-color: #444;
+}
+
+
+
 /* Media Query*/	
 @media (max-width: 480px) {
 	.hero {
