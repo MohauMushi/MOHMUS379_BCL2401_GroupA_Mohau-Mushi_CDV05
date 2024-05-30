@@ -336,23 +336,6 @@ li a:hover {
   background-color: #b5c99a;
 }
 
-@media (max-width: 768px) {
-  .project-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .buttons {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
-}
-
 
 
 
@@ -403,6 +386,22 @@ li a:hover {
 	  flex-basis: 100%;
 	  margin: 1rem;
 	}
+
+  /* Project Section Media */
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* Media Query */
