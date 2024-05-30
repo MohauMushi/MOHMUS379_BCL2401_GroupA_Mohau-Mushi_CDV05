@@ -267,6 +267,18 @@ li a:hover {
 		font-weight: bold;
 		font-size: 2rem;
 	}
+  /* About Section Media */
+  .about-container {
+	  flex-direction: column;
+	}
+  .about-picture {
+	  /* flex-basis: 100%; */
+	  margin: 1rem;
+	}
+  .about-bio {
+	  flex-basis: 100%;
+	  margin: 1rem;
+	}
 }
 
 /* Media Query */
