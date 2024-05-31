@@ -6,3 +6,10 @@ const links = document.querySelectorAll(".links");
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("show-links");
 });
+
+// Hide the nav links when a link is clicked
+links.forEach((link) => {
+	link.addEventListener("click", () => {
+	  navLinks.classList.remove("show-links");
+	});
+  });
