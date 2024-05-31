@@ -9,40 +9,45 @@ hamburger.addEventListener("click", () => {
 
 // Hide the nav links when a link is clicked
 links.forEach((link) => {
-	link.addEventListener("click", () => {
-	  navLinks.classList.remove("show-links");
-	});
+  link.addEventListener("click", (e) => {
+    e.preventDefault(); // Prevent the default link behavior
+    const href = link.getAttribute("href"); // Get the href attribute value
+    const targetElement = document.querySelector(href); // Find the corresponding section
+
+    // Scroll smoothly to the target element
+    targetElement.scrollIntoView({ behavior: "smooth" });
+
+    navLinks.classList.remove("show-links"); // Hide the nav links
   });
+});
 
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the "Scroll to Top" button element
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  // Get the root element (HTML element)
+  const rootElement = document.documentElement;
 
+  // Function to handle scroll events
+  function handleScroll() {
+    // Show the "Scroll to Top" button when the user scrolls down 100 pixels
+    if (rootElement.scrollTop > 100) {
+      scrollToTopBtn.classList.add("show");
+    } else {
+      scrollToTopBtn.classList.remove("show");
+    }
+  }
 
-  document.addEventListener("DOMContentLoaded", function() {
-	// Get the "Scroll to Top" button element
-	const scrollToTopBtn = document.getElementById("scrollToTopBtn");
-	// Get the root element (HTML element)
-	const rootElement = document.documentElement;
-  
-	// Function to handle scroll events
-	function handleScroll() {
-	  // Show the "Scroll to Top" button when the user scrolls down 100 pixels
-	  if (rootElement.scrollTop > 100) {
-		scrollToTopBtn.classList.add("show");
-	  } else {
-		scrollToTopBtn.classList.remove("show");
-	  }
-	}
-  
-	// Function to scroll to the top of the page smoothly
-	function scrollToTop() {
-	  rootElement.scrollTo({
-		top: 0, // Scroll to the top of the page
-		behavior: "smooth" // Smooth scrolling animation
-	  });
-	}
-  
-	// Add click event listener to the "Scroll to Top" button
-	scrollToTopBtn.addEventListener("click", scrollToTop);
-  
-	// Add scroll event listener to the document
-	document.addEventListener("scroll", handleScroll);
-  });
+  // Function to scroll to the top of the page smoothly
+  function scrollToTop() {
+    rootElement.scrollTo({
+      top: 0, // Scroll to the top of the page
+      behavior: "smooth", // Smooth scrolling animation
+    });
+  }
+
+  // Add click event listener to the "Scroll to Top" button
+  scrollToTopBtn.addEventListener("click", scrollToTop);
+
+  // Add scroll event listener to the document
+  document.addEventListener("scroll", handleScroll);
+});
