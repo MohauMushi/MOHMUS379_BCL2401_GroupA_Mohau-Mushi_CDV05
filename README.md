@@ -1,52 +1,40 @@
-### CDV05 | Project Brief: Simple Developer Portfolio Website 🎨
+# My Developer Portfolio
 
-#### Objective
-Create a very simple developer portfolio website to showcase your projects, skills, and contact information. This project will help you demonstrate your ability to design and develop a personal website that combines design and user experience, project showcase, content quality, and technical proficiency.
+This is a simple developer portfolio website built to showcase my projects, skills, and contact information. The site is designed with a clean and professional look, ensuring easy navigation and accessibility across different devices.
 
-#### Criteria
-Your portfolio will be evaluated based on the following criteria:
+**Portfolio Link:** <br>
+➡️[Mohau Mushi's Portfolio](mohau-mushi-portfolio.vercel.app)
 
-1. **Overall Project Quality** (CDV05)
-    - Combines design and user experience, project showcase, content quality, and technical proficiency.
+## Table of Contents
 
-#### Evaluation Rubric
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
 
-| **Criteria** | **5 - Excellent** | **4 - Good** | **3 - Satisfactory** | **2 - Needs Improvement** | **1 - Unsatisfactory** | **0 - No Submission** |
-|--------------|-------------------|--------------|----------------------|---------------------------|------------------------|-----------------------|
-| **D3.1**: CDV05: Simple Developer Portfolio Website | **Outstanding Portfolio in every aspect.** Outstanding quality in design, user experience, project diversity, content accuracy, and technical proficiency. | **A solid Portfolio with clear strengths in most sections.** High quality across all aspects with minor areas for improvement. | **Portfolio meets basic requirements but lacks polish and refinement.** Adequate quality meeting basic requirements but lacking polish in some areas. | **Sections of the Portfolio meet basic expectations, the overall quality is subpar.** Subpar quality with notable deficiencies in multiple aspects. | **Portfolio is fundamentally flawed, with significant deficiencies across all areas.** Poor quality, failing to meet essential requirements in design, content, and technical proficiency. | **No submission** |
+## Features
 
-#### Project Requirements
+- **Clean and Responsive Design:** The portfolio website is built with a modern and minimalistic design, ensuring a great user experience on all devices, from desktop computers to mobile phones.
+- **Project Showcase:** The site includes a dedicated section to showcase my projects, complete with descriptions, technologies used, and links to deployed websites or code repositories.
+- **About Me:** A brief introduction about myself.
+- **Contact Form:** A simple contact form allows visitors to get in touch with me directly from the website.
 
-1. **Design and User Experience**
-    - Create a clean and professional design.
-    - Ensure easy navigation and accessibility.
-    - Use responsive design to make your site look good on all devices.
+## Technologies Used
 
-2. **Project Showcase**
-    - Include at least 2 project.
-    - Provide a brief description, technologies used, and a link to the project or its repository.
-    - Use images or screenshots to enhance the showcase.
+- HTML5
+- CSS3
+- JavaScript
 
-3. **Content Quality**
-    - Write clear and concise descriptions for each section.
-    - Ensure there are no grammatical or spelling errors.
-    - Maintain a consistent and professional tone throughout the site.
+## Installation
 
-4. **Technical Proficiency**
-    - Use HTML, CSS, and optionally JavaScript to build your site.
-    - Ensure the code is clean, well-organised, and properly commented.
-    - Implement basic SEO practices, such as meta tags and descriptive URLs.
+To view the site locally, follow these steps:
 
-#### Submission Guidelines
+1. Clone the repository: `https://github.com/MohauMushi/MOHMUS379_BCL2401_GroupA_Mohau-Mushi_CDV05.git`
+2. Navigate to the project directory:
+3. Open the `index.html` file in your preferred web browser.
 
-- Submit your project GitHub link to the CDV05 Project Tab.
-- Ensure your project is well-documented, including a README file with instructions on how to view the site locally (if not yet deployed live).
+Alternatively, you can use a local development server like Live Server (VS Code extension)
 
-### Tips for Success
+## Usage
 
-- **Plan your layout**: Sketch your design on paper before you start coding.
-- **Use online resources**: Look for inspiration and tutorials to help you with design and technical challenges.
-- **Test your site**: Make sure your portfolio works on different devices and browsers.
-- **Ask for feedback**: Show your site to peers or mentors and make improvements based on their suggestions.
-
-By following this brief and focusing on each criterion, you will be able to create a simple developer portfolio that effectively showcases your skills and projects. Good luck!
+Feel free to explore the different sections of the portfolio website, including the project showcase, about me, and contact form. If you have any questions or would like to get in touch, please use the contact form provided.
