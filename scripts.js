@@ -4,7 +4,5 @@ const links = document.querySelectorAll(".links");
 
 // Toggle the "show-links" class on navLinks container when the hamburger is clicked
 hamburger.addEventListener("click", () => {
-	navLinks.classList.toggle("show-links");
-  });
-
-  
+  navLinks.classList.toggle("show-links");
+});
